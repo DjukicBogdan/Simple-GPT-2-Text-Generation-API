@@ -88,7 +88,6 @@ If you have any questions or suggestions, feel free to open an issue or send an 
 
 Thank you for using the Simple GPT-2 Text Generation API!
 
-```markdown
 ### Notes
 
 - **Replace the URL** in the cloning command with your GitHub repository URL.
