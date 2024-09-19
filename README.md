@@ -33,7 +33,7 @@ The Simple GPT-2 Text Generation API is a basic web API that uses the GPT-2 mode
 4.  **Download the Model**
     python download_model.py
 
-Usage
+## Usage
 
 Start the API server:
 
@@ -41,7 +41,7 @@ uvicorn app:app --reload
 
 The API will be available at http://127.0.0.1:8000
 
-Parameters
+## Parameters
 
 The API supports the following parameters:
 
@@ -51,7 +51,8 @@ temperature: Controls the creativity (lower values result in less creative respo
 top_k: Number of most likely tokens to consider during generation. (Default: 50)
 top_p: Controls the diversity in generation. (Default: 0.95)
 
-Examples
+## Examples
+
 POST Request
 Send a POST request to /generate/ with the JSON body:
 
@@ -67,10 +68,12 @@ Response
   "generated_text": "Today is sunny with a chance of light rain in the afternoon."
 }
 
-License
+## License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contributing
+## Contributing
+
 If you would like to contribute to this project, please follow these steps:
 
 Fork the repository.
