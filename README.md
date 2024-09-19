@@ -21,17 +21,18 @@ The Simple GPT-2 Text Generation API is a basic web API that uses the GPT-2 mode
    git clone https://github.com/username/simple-gpt2-text-generation-api.git
    cd simple-gpt2-text-generation-api
 
-2.  **Create and Activate Virtual Environment**
+2. **Create and Activate Virtual Environment**
 
-   python -m venv .venv
+   ```python -m venv .venv
    source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
-3.  **pip install -r requirements.txt**   
+3. **pip install -r requirements.txt**   
 
-   pip install -r requirements.txt
+   ```pip install -r requirements.txt
 
-4.  **Download the Model**
-    python download_model.py
+4. **Download the Model**
+   
+   ```python download_model.py
 
 ## Usage
 
